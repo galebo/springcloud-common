@@ -8,6 +8,6 @@ spring:
 #注册中心指向start    
 eureka:
   instance:
-    instance-id: spring-cloud-demo
+    instance-id: springCloud-demo
     appname: ${spring.application.name}
 word: ddd
