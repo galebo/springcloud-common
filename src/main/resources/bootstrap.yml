@@ -6,8 +6,8 @@ spring:
          label: master 
          discovery: 
             enable: true
-            serviceId: springcloud-config-server 
+            serviceId: spring-cloud-config-server
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://admin:1qaz2wsx@localhost:8888/eureka/
+         defaultZone: http://admin:1qaz2wsx@localhost:8885/eureka/

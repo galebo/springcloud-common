@@ -10,4 +10,3 @@ eureka:
   instance:
     instance-id: springCloud-demo
     appname: ${spring.application.name}
-word: ddd
