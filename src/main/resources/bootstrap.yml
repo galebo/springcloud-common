@@ -1,7 +1,7 @@
 spring:
    cloud:
       config:
-         name: lyz
+         name: spring-cloud-demo
          profile: prod
          label: master 
          discovery: 
