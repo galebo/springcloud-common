@@ -5,7 +5,7 @@ spring:
       name: spring-cloud-demo
    cloud:
       config:
-         uri: http://localhost:8886/
+         uri: http://admin:1qaz2wsx@localhost:8886/
          retry:
             max-attempts: 6# 配置重试次数，默认为
             multiplier: 1.1# 间隔乘数，默认1.1
@@ -16,7 +16,7 @@ spring:
          label: master 
          discovery: 
             enable: true
-            serviceId: springCloud-configServer
+            serviceId: spring-cloud-config-server
 eureka:
    client:
       serviceUrl:
