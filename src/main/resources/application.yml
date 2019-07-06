@@ -1,9 +1,3 @@
 server:
   port: 8001
 
- 
-#注册中心指向start    
-eureka:
-  instance:
-    instance-id: springCloud-demo
-    appname: ${spring.application.name}

@@ -1,0 +1,3 @@
+galebo:
+   eurekaServerUrl: http://admin:1qaz2wsx@localhost:8881/eureka/,http://admin:1qaz2wsx@localhost:8882/eureka/
+   configServerUrl: http://admin:1qaz2wsx@localhost:8886/
